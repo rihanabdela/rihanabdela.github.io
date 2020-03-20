@@ -1,0 +1,301 @@
+/*header*/
+#logo{
+    margin:20px;
+    float:left;
+    width:96px;
+    height:80px;
+    border-radius: 10px;
+}
+header{
+    background-color: #660000;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    opacity: 0.9;
+    top:0;
+    left: 0;
+}
+nav li{
+    display: inline;
+    font-size: 30px;
+    padding: 40px;
+    font-family: "Bauhaus 93", sans-serif;   
+}
+nav li a{
+    color: white;
+    text-shadow: 8px 8px 10px black, 8 8 40px blue, 8 8 14px darkblue;
+    text-decoration: none;
+    margin-top: 10%;
+    text-shadow: 5px 5px #262626; 
+}
+nav li a:hover{
+    color: #8c8c8c;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+nav li a:active{
+    color: #262626;
+}
+/*index.html*/
+#middle {
+    width:90%;
+    margin: auto;
+    margin-top:100px;
+    }
+.hThrees {
+    font-size: 30px;
+    font-family: 'Merienda One' , cursive;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+}
+article{
+    float:left;
+    margin:0 auto;
+    height:auto;
+    padding:2%;
+}
+aside{
+    float:right;
+    margin:0 auto;
+    width:70%;
+    height:auto;
+    padding:2%
+    }
+.box {
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+p{
+    font-size: 20px;
+}
+.hthree{
+    clear: both;
+    margin-top: 2%;
+}
+.hthree ul{
+    padding-left: 15%;
+    font-size: 20px;
+}
+.star ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 2%;
+}
+h3{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 2%; 
+    font-size: 25px;
+}
+/*index.html*/
+/*image.html*/
+#h2{
+    text-align: center;
+    font-family: "Berlin Sans FB Demi", serif;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px #660000;
+    margin-top: 75px;
+    border-bottom: #262626;
+    border-style: outset;
+}
+#h3{
+    margin-top: 25px;
+}
+#hth{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: "Bradley Hand ITC", serif;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+}
+body{
+    background-color: #f2f2f2;
+}
+#im{
+    padding: 1.5%;
+    border-radius: 20px;
+}
+/*image.html*/
+/*footer*/
+.social-btns{
+	margin-top: 4%;
+    float: right;
+    margin-right: 3%;
+}
+.social-btns li{
+	list-style: none;
+	padding: 7px;
+	display: inline;
+	padding-bottom: 0px;
+    padding-right: 10px;
+}
+#facebook{
+	border: 1px solid #305c99;
+	color: #305c99;
+	padding: 15px;
+	transition: all 0.6s;
+	border-radius: 35%;
+	width: 60px;
+	height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#facebook:hover{
+	background: #305c99;
+	color: white;
+	cursor: pointer;
+}
+#twitter{
+	border: 1px solid #00cdff;
+	color: #00cdff;
+	padding: 15px;
+	transition: all 0.6s;
+	border-radius: 35%;
+	width: 60px;
+	height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#twitter:hover{
+	background: #00cdff;
+	color: white;
+	cursor: pointer;
+}
+#google-plus{
+	border: 1px solid #d24228;
+	color: #d24228;
+	padding: 15px;
+	transition: all 0.6s;
+	border-radius: 35%;
+	width: 60px;
+	height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#google-plus:hover{
+	background: #d24228;
+	color: white;
+	cursor: pointer;
+}
+#linkedin{
+	border: 1px solid #007bb6;
+	color: #007bb6;
+	padding: 15px;
+	transition: all 0.6s;
+	border-radius: 35%;
+	width: 60px;
+	height: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linkedin:hover{
+	background: #007bb6;
+	color: white;
+	cursor: pointer;
+}
+footer{
+    clear: both;
+}
+.footer ul li{
+	list-style: none;
+	display: inline;
+	color: brown;
+    text-align: left;
+}
+.row footer{
+    text-align: center;
+    float: center;
+    margin-top: 7%;
+}
+.text-center{
+    text-align: center;
+    bottom: 5%;
+    border-style:inset ;
+    margin-top: 7%;
+}
+/*footer*/
+/*contact.html*/
+.row{
+    padding-top: 10%;
+    float: left;
+    margin-left: 5%;
+    
+}
+#fname {
+    width: 50%;
+    padding: 1%;
+}
+
+#lname {
+    width: 50%;
+    padding: 1%;
+}
+
+#uname {
+    width: 50%;
+    padding: 1%;
+}
+
+#password {
+    width: 50%;
+    padding: 1%;
+}
+
+#email {
+    width: 50%;
+    padding: 1%;
+}
+
+#gmap_canvas{
+    padding-top: 12%;
+    float: right;
+    margin-right: 3%;
+    padding-bottom: 5%;
+}
+legend{
+    font-family: "MV Boli", sans-serif;
+    font-size: 30px;
+}
+/*contact.html*/
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+

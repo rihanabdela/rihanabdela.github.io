@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery</title>
+        <link rel="stylesheet" href="css/style.css" style type = "text/css">
+    </head>
+    
+    <body>
+        <header>
+            <a href = "index.html" ><img src = "img/download.jpg" id="logo"/></a>
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "image.html">Gallery</a></li>
+                    <li><a href = "contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="row">
+            <div class="col-sm-12 col-md-6 contact_left">
+                <form action="mailto:yourmail" method="POST" enctype="utf-8"> 
+                    <fieldset></br>
+                        <legend><b>Contact Me With the following Information</b></legend>
+                    <div>
+                        <label for="fname">First Name:  </label>  
+                        <input type="text" id="fname" name="fname" placeholder="FirstName..." required size="35">
+                    </div></br> 
+                    <div>
+                        <label for="lname">Last Name:  </label>  
+                        <input type="text" id="lname" name="lname" placeholder="LastName..." required size="35" >
+                    </div></br>   
+                    <div class="form-group">
+                        <label for="uname">User Name:  </label>  
+                        <input type="text" class="form-control" id="uname" name="uname" placeholder="UserName..." required size="35" pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+                    </div>
+                    </br>
+    
+                    <div>
+                        <label for="password">Password:  </label>  
+                        <input type="password" id="password" name="password" placeholder="Password..." required size="35" pattern="[a-z]{4,8}" title="Password must contain characters,letters,numbers">
+                    </div></br>
+                    
+                    <div class="form-grou">
+                        <label for="email">Email: </label>  
+                        <input type="email" class="form-control" onclick="email()" id="email" name="email" placeholder="Email..." value="" required title="@email.com">
+                    </div>
+                        
+                    </br>
+    
+                    <div class="form-gr">
+                        <label for="comment">Comment: </label>
+                        <textarea id ="form-control" rows="3" name="message" placeholder="Your Comment..."></textarea>
+                    </div>
+                </br>
+    
+                    <div class="form-group">
+                        <input id="submit" name="submit" type="submit" value="Send" class="btn view_more btn-submit">
+                    </div>
+                    </br>
+                    
+                    </fieldset>
+    
+                </form>
+            </div>
+        </div>
+
+        <div >
+            <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+        </div>  
+    </br>
+    <footer class = "footer">
+        <div >
+                <ul class = "social-btns">
+                    <li><a id = "facebook" href = "http/www.facebook.com" title="facebook">f </a></li>
+                    <li><a id = "twitter" href = "http/www.twitter.com" title= "Twitter">t</a></li>
+                    <li><a id = "google-plus" href = "http/www.googleplus.com"title= "Google-Plus">g+</a></li>
+                    <li><a id = "linkedin" href = "http/www.instagram.com" title= "Instagram">in</a></li>
+                </ul>
+            </div>
+            </br>
+         <div class = "row-footer">
+                <ul class = "text-center">
+                    <li>Copyright &copy; | </li>
+                    <li>Rihana Abdela | </li>
+                    <li>All Rights Reserved 2020 </li><br>
+                </ul>
+            
+        </div> 
+    </footer>
+
+</body>
+</html>

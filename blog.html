@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer</title>
+    <link rel="stylesheet" href="css/blog.css" style type = "text/css">
+</head>
+<body>
+    <h3>Question 4</h3>
+    <ul class="q4">
+        <li>No, it doesn't matter to use relative size(%, em, rem) one styling the size of an element so that the element is responsive.</li>
+        <li>Because relative sizes are the font-size property can be assigned a unit that it relative to its parent’s font size.</li>
+        <ul>
+            <li>em: 1em is equivalent to the current font size, so 2em is twice as large.</li>
+            <li>%: 100% is equivalent to the current font size, so 200% is twice as large.</li>
+            <li>ex: 1ex is equivalent to the height of the letter ‘x’ in the current font.</li>
+        </ul>
+        <li>Percentage and ’em’ sizes are equivalent, e.g. 50% = 0.5em, 100% = 1em, 120% = 1.2em, etc. Some browsers exhibit subtle differences but it’s rarely a major problem.</li>
+        <li>Relative sizes in media queries are based on the initial value, which means that units are never based on results of declarations. For example, in HTML, the em unit is relative to the initial value of font-size, defined by the user agent or the user’s preferences, not any styling on the page</li>
+    </ul>
+    <h3>Question 5</h3>
+    <ul class="q5">
+        <li>A px value is static. This is an OS-independent and cross-browser way of literally telling the browsers to render the letters at exactly the number of pixels in height that you specified. The results may vary slightly across browsers, as they may use different algorithms to achieve a similar effect.</li>
+        <li>Font sizing settings can also be used in combination. For example, if a parent element is set to 16px and its child element is set to larger, the child element displays larger than the parent element in the page.</li>
+    </ul>
+    
+    <h3>Question 6</h3>
+    <ol class="q6">
+        <li>CSS3 Rounded Corners</li>
+        <p id="q6">Rounded corner elements can spruce up a website, but creating a rounded corner requires a designer to write a lot of code. Adjusting the height, width and positioning of these elements is a never-ending chore because any change in content can break them. CSS 3 addresses this problem by introducing the border-radius property, which gives you the same rounded-corner effect and you don't have to write all the code. CSS 3 eliminates the need for including external images or using any sort of JavaScript code to position the images. All you need is the border-radius property.</p>
+        
+        <li>CSS3 Box Shadow</li>
+        <p id="q6">One of the CSS3 new features is the box-shadow property that adds a shadow to an element. Instead of using multiple images around an item, this property lets you add shadow with a short line of code. A box shadow allows you to create a drop shadow for an element. Usually this effect is achieved using a repeated image around the element. However, with the property box-shadow this can be achieved by writing a single line of CSS code.</p>
+
+        <li>CSS 3 Transform (Element Rotation)</li>
+        <p id="q6">CSS 3 also introduced a property called transform, which enables rotating Web elements on a webpage. As of now, if a designer wants to rotate of an element, he or she uses JavaScript. Many JavaScript extensions/plugins are available online for this feature, but they can make the code cumbersome and most importantly consume more resources.</p>
+
+        <li>CSS 3 Gradient</li>
+        <p id="q6">While the Gradient effect is a sleek Web design tool, it can be a drain on resources if not implemented correctly using current CSS techniques. Some designers use a complete image and put in the background for the gradient effect, which increases the page load time.</p>
+    </ol>
+        <h4>Example</h4>
+        <p id="ex">Html</p>
+        <span class="ht"> &lt;p&gt; Specific Changes in CSS3 &lt;/p&gt;</span>
+        
+        <p id="ex">CSS3</p>
+        <span class="ht">p</span>
+        {
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">border:</span> 
+        <span class="right"> 2px solid black;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">border-radius:</span> 
+        <span class="right"> 25px;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">box-shadow:</span> 
+        <span class="right"> 5px 5px 5px 5px #ff6699;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">-webkit-transform:</span> 
+        <span class="right"> : rotateY(150deg);</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left"> transform:</span> 
+        <span class="right"> rotateY(150deg);</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">background-image:</span> 
+        <span class="right"> -webkit-gradient(linear,left bottom,left top,color-stop(0, #660033),color-stop(1, #ffccdd));</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">background-image:</span> 
+        <span class="right">-moz-linear-gradient(center bottom , #660033 0pt, #ffccdd 100%)</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">text-align:</span> 
+        <span class="right"> center;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">height:</span> 
+        <span class="right"> 100px;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">width:</span> 
+        <span class="right"> 150px;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">font-size:</span> 
+        <span class="right"> 30px;</span>
+        <br>
+        &nbsp;&nbsp;&nbsp;
+        <span class="left">padding:</span> 
+        <span class="right"> 10px;</span>
+        }
+        <br>
+        
+        <p id="ex">OutPut</p>
+        <a ><img id = "im" src = "img/change.jpg" width = "207px" height = "184px"/></a>
+
+        <footer>
+            <div >
+                <h5>Reference links</h5>
+                <ul class = "social-btns">
+                    <li><a  href = "https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" >https://www.sitepoint.com/understanding-and-using-rem-units-in-css/</a></li>
+                    <li><a  href = "https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align">https://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align</a></li>
+                    <li><a href = "http://webreference.com/authoring/css3/index-2.html">http://webreference.com/authoring/css3/index-2.html</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    
+</body>
+</html>

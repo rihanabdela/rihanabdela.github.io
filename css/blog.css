@@ -1,0 +1,71 @@
+body{
+    background: #e6e6ff;
+ 
+}
+h3{
+    border-radius: 25px;
+    border: 2px solid #002266;
+    padding: 20px; 
+    width: 200px;
+    height: 30px; 
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px azure; 
+    margin-left: 20%;
+}
+/**question4**/
+.q4{
+    list-style-type: circle;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/**question5**/
+.q5{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+/**question6**/
+.q6{
+    list-style-type: upper-roman;
+    font-size: 30px;
+    font-style: bold;
+    margin-left: 2%;
+}
+#q6{
+    font-size: 20px;
+    font-style: normal;
+    margin-right: 2%;
+}
+h4{
+    font-size: 20px;
+    font-style: bold;
+    margin-left: 3%;
+}
+#ex{
+    margin-left: 5%;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 1%;
+}
+.ht{
+    margin-left: 6%;
+    font-size: 18px;
+    margin-top: 6%;
+}
+.left{
+    margin-left: 7%;
+    font-size: 18px;
+}
+.right{
+    font-size: 18px;
+    margin-left: 1%;
+}
+#im{
+    margin-left: 7%;
+}
+h5{
+    font-size: medium;
+    font-style: bold;
+}
